@@ -9,4 +9,4 @@ ggplot(data, aes(x=Global_active_power)) +
   xlab("Global Active Power (kilowatts)") +
   ylab("Frequency") + theme_classic() +
   ggtitle("Global Active Power")
-ggsave(filename="/tmp/plot1.png", width=1.6, height=1.6, units="in",dpi=300)
+ggsave(filename="/tmp/plot1.png", width=4.8, height=4.8, units="in",dpi=100)
